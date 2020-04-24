@@ -1,3 +1,3 @@
-# My Resume(Japaness Ver.)
+# My Resume(Japanese Ver.)
 
 https://amfever505.github.io/my-cv/
