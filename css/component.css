@@ -729,10 +729,10 @@
   color: #484848;
 }
 .work-item__title--right {
-  margin-right: -80px;
+  /* margin-right: -80px; */
 }
 .work-item__title--left {
-  margin-left: -80px;
+  /* margin-left: -80px; */
 }
 .work-item__intro {
   font-size: 16px;
