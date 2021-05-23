@@ -15,7 +15,6 @@ $(document).ready(function () {
 });
 //slide
 var slideIndex = 1;
-showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
