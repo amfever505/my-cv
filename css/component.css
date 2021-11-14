@@ -711,11 +711,46 @@
     padding-bottom: 80px;
   }
 }
+/* work-cards
+---------------------*/
+.work-cards {
+  margin-bottom: 4rem;
+}
+.work-cards .row{
+  margin-bottom: 2rem;
+}
+.work-card {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 4px 4px 12px #ccc;
+  border: 0;
+  padding: 1rem;
+}
+
+.work-card h5{
+  margin: 8px 0;
+  color: #484848;
+
+}
+.work-card p{
+  color: #777777;
+  font-size: 12px;
+  line-height: 1;
+  margin: 0;
+}
+.work-card__img {
+  border: 2px solid #eee;
+  border-radius: 0.5rem;
+  padding: 0;
+  overflow: hidden;
+}
 /* work-list
 ---------------------*/
+.design-item,
 .work-list {
   padding-top: 80px;
 }
+.design-item,
 .work-item {
   margin-bottom: 120px;
 }
@@ -736,6 +771,15 @@
 .work-item__title--left {
   /* margin-left: -80px; */
 }
+.work-item__skill {
+}
+.work-item__skill img {
+  display: inline-block;
+  width: auto;
+  height: 40px;
+  margin: 0 12px;
+}
+
 .work-item__intro {
   font-size: 16px;
   line-height: 32px;

@@ -15,7 +15,7 @@ $(document).ready(function () {
 });
 //slide
 var slideIndex = 1;
-
+currentSlide(1);
 // Next/previous controls
 function plusSlides(n) {
   showSlides((slideIndex += n));
@@ -45,3 +45,18 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = 'block';
   dots[slideIndex - 1].className += ' active';
 }
+
+// const WORKS = {
+// };
+// let preWork = WORKS[1];
+// let preNo = 1;
+// $('.work-item').hide();
+// $('#' + preWork).fadeIn('slow');
+
+// function selectWork(n) {
+//   const name = WORKS[n];
+//   $('.work-item').hide();
+//   $('#' + name).fadeIn('slow');
+//   preWork = name;
+//   preNo = n;
+// }
